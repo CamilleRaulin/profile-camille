@@ -1,0 +1,113 @@
+h1{
+	color: #7FBCD2; 
+	font-size:25px;
+	font-family: 'Bebas Neue', cursive;
+	line-height: 2;
+	background-color: #FFEEAF;
+	border-radius: 13px;
+}
+
+h2{
+	color: black;
+	font-size:20px;
+	font-family: 'Barlow', sans-serif;
+	line-height: 1;
+	border-radius: 10px;
+}
+
+p{color: black;}
+
+selector{
+
+}
+
+
+p,a {
+	font-family: 'Barlow', sans-serif;
+}
+
+
+ul {
+	font-family: 'Barlow', sans-serif;
+	padding: 0px;
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: black ;
+
+}
+
+
+body{
+	background-image: ;
+}
+
+
+
+img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+
+
+/*custom design*/
+
+/*classes*/ 
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+
+}
+
+.btn-blue{
+	background:#7FBCD2 ;
+	color: orange;
+	padding: 1px;
+	border-radius: 100px;
+	line-height: 30px;
+}
+
+.btn-blue:hover {
+	background: #FFB3B3;
+	transition: 0,1s;
+	color: #FFE9AE;
+}
+
+.card-white{
+	width: 500px;
+	background-color: white;
+	border-radius:6px;
+	box-shadow: 10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 30px;
+	padding: 16px;
+	text-align: center;
+}
+
+
+
+
+/*Id*/
+
+	#btn-red {
+		background-color: indianred;
+	}
+
+	
+	
+
+
+/*Media queries*/
+
+@media(max-width : 720px) {
+.container {
+background-color: lightpink ; 
+} 
+
+
+
